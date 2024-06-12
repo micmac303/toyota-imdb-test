@@ -17,6 +17,8 @@ public class ToyotaImdbTestApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		log.info("Application started with command-line argument: {}", args[0]);
+
+		if (args.length > 0)
+			log.info("Application started with command-line argument: {}", (args[0]));
 	}
 }
