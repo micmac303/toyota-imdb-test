@@ -1,22 +1,16 @@
 package com.timeless.toyotaimdbtest;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication @Slf4j
-public class ToyotaImdbTestApplication implements CommandLineRunner {
+public class ToyotaImdbTestApplication {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		log.info("Starting the application");
+		log.info("\n\n\n*** Starting the application\n\n\n*** ");
 		SpringApplication.run(ToyotaImdbTestApplication.class, args);
-		log.info("Application finished");
-	}
-
-	@Override
-	public void run(String... args) throws Exception {
-		log.info("Application started with command-line argument: {}", args[0]);
+		log.info("\n\n\n*** Application finished\n\n\n*** ");
 	}
 }
