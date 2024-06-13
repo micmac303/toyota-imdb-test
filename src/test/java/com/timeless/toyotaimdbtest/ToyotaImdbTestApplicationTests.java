@@ -9,5 +9,4 @@ class ToyotaImdbTestApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
